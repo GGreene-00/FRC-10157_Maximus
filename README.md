@@ -25,3 +25,5 @@ Our story is still being written. With every passing year, we are building not o
 We are Roman Robotics — FRC Team 10157 — and we’re always moving forward.
 
 ---
+
+In recognition of our team mentors and members, we recognize:

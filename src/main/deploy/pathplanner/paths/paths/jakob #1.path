@@ -1,0 +1,54 @@
+{
+  "version": "2025.0",
+  "waypoints": [
+    {
+      "anchor": {
+        "x": 3.554056603773585,
+        "y": 3.8212657232704403
+      },
+      "prevControl": null,
+      "nextControl": {
+        "x": 2.9266430817610063,
+        "y": 3.2765880503144653
+      },
+      "isLocked": false,
+      "linkedName": null
+    },
+    {
+      "anchor": {
+        "x": 2.3199135220125786,
+        "y": 2.8215408805031448
+      },
+      "prevControl": {
+        "x": 2.1517453235135,
+        "y": 2.636555862154159
+      },
+      "nextControl": null,
+      "isLocked": false,
+      "linkedName": "Jakob #1"
+    }
+  ],
+  "rotationTargets": [],
+  "constraintZones": [],
+  "pointTowardsZones": [],
+  "eventMarkers": [],
+  "globalConstraints": {
+    "maxVelocity": 3.5,
+    "maxAcceleration": 7.0,
+    "maxAngularVelocity": 540.0,
+    "maxAngularAcceleration": 720.0,
+    "nominalVoltage": 12.0,
+    "unlimited": false
+  },
+  "goalEndState": {
+    "velocity": 0,
+    "rotation": 28.61045966596528
+  },
+  "reversed": false,
+  "folder": null,
+  "idealStartingState": {
+    "velocity": 0,
+    "rotation": 0.0
+  },
+  "useDefaultConstraints": true
+}

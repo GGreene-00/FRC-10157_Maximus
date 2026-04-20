@@ -1,0 +1,54 @@
+{
+  "version": "2025.0",
+  "waypoints": [
+    {
+      "anchor": {
+        "x": 8.352735849056604,
+        "y": 5.806926100628931
+      },
+      "prevControl": null,
+      "nextControl": {
+        "x": 8.449261006289309,
+        "y": 5.138144654088051
+      },
+      "isLocked": false,
+      "linkedName": "Right Defense 2"
+    },
+    {
+      "anchor": {
+        "x": 8.552680817610064,
+        "y": 2.311336477987421
+      },
+      "prevControl": {
+        "x": 8.531996855345913,
+        "y": 3.2352201257861632
+      },
+      "nextControl": null,
+      "isLocked": false,
+      "linkedName": "Right Defense 3"
+    }
+  ],
+  "rotationTargets": [],
+  "constraintZones": [],
+  "pointTowardsZones": [],
+  "eventMarkers": [],
+  "globalConstraints": {
+    "maxVelocity": 3.5,
+    "maxAcceleration": 7.0,
+    "maxAngularVelocity": 540.0,
+    "maxAngularAcceleration": 720.0,
+    "nominalVoltage": 12.0,
+    "unlimited": false
+  },
+  "goalEndState": {
+    "velocity": 0,
+    "rotation": 89.16968451374177
+  },
+  "reversed": false,
+  "folder": null,
+  "idealStartingState": {
+    "velocity": 0,
+    "rotation": 90.0
+  },
+  "useDefaultConstraints": true
+}

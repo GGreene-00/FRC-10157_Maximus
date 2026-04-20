@@ -1,0 +1,86 @@
+{
+  "version": "2025.0",
+  "waypoints": [
+    {
+      "anchor": {
+        "x": 7.01563829787234,
+        "y": 2.2901507092198585
+      },
+      "prevControl": null,
+      "nextControl": {
+        "x": 5.526393014853473,
+        "y": 3.0830359293456446
+      },
+      "isLocked": false,
+      "linkedName": "RCS#2"
+    },
+    {
+      "anchor": {
+        "x": 2.685330188679245,
+        "y": 3.3386399371069184
+      },
+      "prevControl": {
+        "x": 3.65058176100629,
+        "y": 1.8907625786163522
+      },
+      "nextControl": null,
+      "isLocked": false,
+      "linkedName": "Basic Trench Shoot Bottom End"
+    }
+  ],
+  "rotationTargets": [
+    {
+      "waypointRelativePos": 0.5297482837528604,
+      "rotationDegrees": 46.872417519916766
+    }
+  ],
+  "constraintZones": [
+    {
+      "name": "Constraints Zone",
+      "minWaypointRelativePos": 0,
+      "maxWaypointRelativePos": 1.0,
+      "constraints": {
+        "maxVelocity": 1.2,
+        "maxAcceleration": 7.0,
+        "maxAngularVelocity": 540.0,
+        "maxAngularAcceleration": 720.0,
+        "nominalVoltage": 12.0,
+        "unlimited": false
+      }
+    },
+    {
+      "name": "Constraints Zone",
+      "minWaypointRelativePos": 0,
+      "maxWaypointRelativePos": 0,
+      "constraints": {
+        "maxVelocity": 3.5,
+        "maxAcceleration": 7.0,
+        "maxAngularVelocity": 540.0,
+        "maxAngularAcceleration": 720.0,
+        "nominalVoltage": 12.0,
+        "unlimited": false
+      }
+    }
+  ],
+  "pointTowardsZones": [],
+  "eventMarkers": [],
+  "globalConstraints": {
+    "maxVelocity": 3.5,
+    "maxAcceleration": 7.0,
+    "maxAngularVelocity": 540.0,
+    "maxAngularAcceleration": 720.0,
+    "nominalVoltage": 12.0,
+    "unlimited": false
+  },
+  "goalEndState": {
+    "velocity": 0,
+    "rotation": 28.249735494974246
+  },
+  "reversed": false,
+  "folder": null,
+  "idealStartingState": {
+    "velocity": 0,
+    "rotation": -90.0
+  },
+  "useDefaultConstraints": true
+}

@@ -1,0 +1,68 @@
+{
+  "version": "2025.0",
+  "waypoints": [
+    {
+      "anchor": {
+        "x": 6.0361320754716985,
+        "y": 5.241564465408805
+      },
+      "prevControl": null,
+      "nextControl": {
+        "x": 6.070605345911949,
+        "y": 4.6141509433962264
+      },
+      "isLocked": false,
+      "linkedName": "DDP 4.5"
+    },
+    {
+      "anchor": {
+        "x": 6.0568160377358495,
+        "y": 3.835055031446541
+      },
+      "prevControl": {
+        "x": 6.022342767295597,
+        "y": 4.607256289308176
+      },
+      "nextControl": null,
+      "isLocked": false,
+      "linkedName": "DDF 5"
+    }
+  ],
+  "rotationTargets": [],
+  "constraintZones": [
+    {
+      "name": "Constraints Zone",
+      "minWaypointRelativePos": 0.0,
+      "maxWaypointRelativePos": 1.0,
+      "constraints": {
+        "maxVelocity": 1.3,
+        "maxAcceleration": 7.0,
+        "maxAngularVelocity": 540.0,
+        "maxAngularAcceleration": 720.0,
+        "nominalVoltage": 12.0,
+        "unlimited": false
+      }
+    }
+  ],
+  "pointTowardsZones": [],
+  "eventMarkers": [],
+  "globalConstraints": {
+    "maxVelocity": 3.5,
+    "maxAcceleration": 7.0,
+    "maxAngularVelocity": 540.0,
+    "maxAngularAcceleration": 720.0,
+    "nominalVoltage": 12.0,
+    "unlimited": false
+  },
+  "goalEndState": {
+    "velocity": 0,
+    "rotation": -90.93919094573546
+  },
+  "reversed": false,
+  "folder": "merq",
+  "idealStartingState": {
+    "velocity": 0,
+    "rotation": -90.0
+  },
+  "useDefaultConstraints": true
+}

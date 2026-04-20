@@ -1,0 +1,136 @@
+{
+  "version": "2025.0",
+  "command": {
+    "type": "sequential",
+    "data": {
+      "commands": [
+        {
+          "type": "path",
+          "data": {
+            "pathName": "Double Dip Fangs"
+          }
+        },
+        {
+          "type": "deadline",
+          "data": {
+            "commands": [
+              {
+                "type": "wait",
+                "data": {
+                  "waitTime": 1.0
+                }
+              },
+              {
+                "type": "named",
+                "data": {
+                  "name": "intakeDrop"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "type": "named",
+          "data": {
+            "name": "scooperOn"
+          }
+        },
+        {
+          "type": "path",
+          "data": {
+            "pathName": "DDP 2"
+          }
+        },
+        {
+          "type": "named",
+          "data": {
+            "name": "scooperStop"
+          }
+        },
+        {
+          "type": "path",
+          "data": {
+            "pathName": "DDP 3"
+          }
+        },
+        {
+          "type": "deadline",
+          "data": {
+            "commands": [
+              {
+                "type": "wait",
+                "data": {
+                  "waitTime": 4.5
+                }
+              },
+              {
+                "type": "named",
+                "data": {
+                  "name": "shooterOn"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "type": "named",
+          "data": {
+            "name": "shooterStop"
+          }
+        },
+        {
+          "type": "path",
+          "data": {
+            "pathName": "DDF 4"
+          }
+        },
+        {
+          "type": "named",
+          "data": {
+            "name": "scooperOn"
+          }
+        },
+        {
+          "type": "path",
+          "data": {
+            "pathName": "DDF 5"
+          }
+        },
+        {
+          "type": "named",
+          "data": {
+            "name": "scooperStop"
+          }
+        },
+        {
+          "type": "path",
+          "data": {
+            "pathName": "DDP 6"
+          }
+        },
+        {
+          "type": "deadline",
+          "data": {
+            "commands": [
+              {
+                "type": "wait",
+                "data": {
+                  "waitTime": 4.5
+                }
+              },
+              {
+                "type": "named",
+                "data": {
+                  "name": "shooterOn"
+                }
+              }
+            ]
+          }
+        }
+      ]
+    }
+  },
+  "resetOdom": true,
+  "folder": "Complex Left Autos",
+  "choreoAuto": false
+}

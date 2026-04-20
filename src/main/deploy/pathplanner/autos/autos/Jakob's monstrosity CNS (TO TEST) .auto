@@ -1,0 +1,160 @@
+{
+  "version": "2025.0",
+  "command": {
+    "type": "sequential",
+    "data": {
+      "commands": [
+        {
+          "type": "path",
+          "data": {
+            "pathName": "jakob #1"
+          }
+        },
+        {
+          "type": "deadline",
+          "data": {
+            "commands": [
+              {
+                "type": "wait",
+                "data": {
+                  "waitTime": 2.0
+                }
+              },
+              {
+                "type": "named",
+                "data": {
+                  "name": "shooterOn"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "type": "named",
+          "data": {
+            "name": "shooterStop"
+          }
+        },
+        {
+          "type": "named",
+          "data": {
+            "name": "intakeDrop"
+          }
+        },
+        {
+          "type": "path",
+          "data": {
+            "pathName": "jakob2"
+          }
+        },
+        {
+          "type": "named",
+          "data": {
+            "name": "scooperOn"
+          }
+        },
+        {
+          "type": "path",
+          "data": {
+            "pathName": "jakob 3"
+          }
+        },
+        {
+          "type": "named",
+          "data": {
+            "name": "scooperStop"
+          }
+        },
+        {
+          "type": "path",
+          "data": {
+            "pathName": "jakob 4"
+          }
+        },
+        {
+          "type": "deadline",
+          "data": {
+            "commands": [
+              {
+                "type": "wait",
+                "data": {
+                  "waitTime": 2.2
+                }
+              },
+              {
+                "type": "named",
+                "data": {
+                  "name": "shooterOn"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "type": "named",
+          "data": {
+            "name": "shooterStop"
+          }
+        },
+        {
+          "type": "path",
+          "data": {
+            "pathName": "jakob 5"
+          }
+        },
+        {
+          "type": "named",
+          "data": {
+            "name": "scooperOn"
+          }
+        },
+        {
+          "type": "path",
+          "data": {
+            "pathName": "jakob 6"
+          }
+        },
+        {
+          "type": "named",
+          "data": {
+            "name": "scooperStop"
+          }
+        },
+        {
+          "type": "path",
+          "data": {
+            "pathName": "jacob 7"
+          }
+        },
+        {
+          "type": "deadline",
+          "data": {
+            "commands": [
+              {
+                "type": "wait",
+                "data": {
+                  "waitTime": 2.2
+                }
+              },
+              {
+                "type": "named",
+                "data": {
+                  "name": "shooterOn"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "type": "named",
+          "data": {
+            "name": "shooterStop"
+          }
+        }
+      ]
+    }
+  },
+  "resetOdom": true,
+  "folder": "Complex Center Autos",
+  "choreoAuto": false
+}

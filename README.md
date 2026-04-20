@@ -10,7 +10,7 @@ Every robotics team begins with a spark — a moment where curiosity turns into 
 
 We are a team built on learning. From the very beginning, we came together as students and mentors ready to take on something new, even when we didn’t have all the answers. For us, it has never been about perfection—it’s about experimenting, improving, and building something meaningful together.
 
-In our early seasons, everything was new. We learned how to use tools, write code, and understand the flow of competition through hands-on experience. There were challenges that felt overwhelming and moments where things didn’t go as planned. But those experiences shaped who we are. Instead of giving up, we kept going—asking questions, testing ideas, and turning uncertainty into confidence.
+Last season, everything was new. We learned how to use tools, write code, and understand the flow of competition through hands-on experience. There were challenges that felt overwhelming and moments where things didn’t go as planned. But those experiences shaped who we are. Instead of giving up, we kept going—asking questions, testing ideas, and turning uncertainty into confidence.
 
 Our robot, Maximus, represents that journey. It isn’t just a machine—it’s proof of what we can accomplish through teamwork and persistence. Every adjustment, every fix, and every success—no matter how small—reminds us that progress comes from learning by doing. Maximus reflects not just what we knew at the time, but our willingness to grow.
 

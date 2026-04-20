@@ -26,4 +26,4 @@ We are Roman Robotics — FRC Team 10157 — and we’re always moving forward.
 
 ---
 
-In recognition of our team mentors and members, we recognize:
+

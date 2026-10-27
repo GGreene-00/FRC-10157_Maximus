@@ -15,7 +15,7 @@ public class ChainSubsystem extends SubsystemBase {
     private final TalonFX chainMotor;
     private static final int CAN_ID_CHAIN = 34;
 
-    private static final double CHAIN_FORWARD = 0.2;
+    private static final double CHAIN_FORWARD = 0.1; 
     private static final double CHAIN_REVERSE = -0.15;
     private static final double CHAIN_FORWARD_SLOW = 0.1;
 
@@ -87,7 +87,7 @@ public class ChainSubsystem extends SubsystemBase {
             () -> moveForward(),
             () -> stop(),
             this
-        ).withTimeout(1.0);
+        ).withTimeout(2.0);
     }
 
     public Command intakeLift() {
@@ -95,7 +95,7 @@ public class ChainSubsystem extends SubsystemBase {
             () -> moveReverse(),
             () -> stop(),
             this
-        ).withTimeout(1.0);
+        ).withTimeout(2.0);
     }
 
     public Command intakeJostle() {
